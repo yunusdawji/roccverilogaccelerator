@@ -1,0 +1,10 @@
+--- Makefrag	2017-01-15 14:44:01.257560966 -0800
++++ Makefrag.orig	2017-01-14 18:00:59.000000000 -0800
+@@ -10,6 +10,7 @@
+ 	$(generated_dir)/memdessertMemDessert.$(CONFIG).v \
+ 	$(base_dir)/vsrc/$(TB).v \
+ 	$(base_dir)/vsrc/backup_mem.v \
++  $(acc_verilog_dir)/*.v \
+ 
+ # C sources
+ 

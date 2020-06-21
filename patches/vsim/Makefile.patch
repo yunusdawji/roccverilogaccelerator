@@ -1,0 +1,10 @@
+--- Makefile	2017-01-15 14:58:11.712281482 -0800
++++ Makefile.new	2017-01-15 14:55:07.898748277 -0800
+@@ -11,6 +11,7 @@
+ 
+ base_dir = $(abspath ..)
+ generated_dir = $(abspath ./generated-src)
++acc_verilog_dir = $(base_dir)/accel/src/main/verilog
+ mem_gen = $(base_dir)/vsim/vlsi_mem_gen
+ sim_dir = .
+ output_dir = $(sim_dir)/output
